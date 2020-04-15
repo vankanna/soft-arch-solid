@@ -10,7 +10,7 @@ import edu.wctc.independentcopy.writer.Writer;
  * flexible and easier to reuse with other programs. This is a classic example
  * of the Dependency Inversion Principle (DIP) as well as the Liskov
  * Substitution Principle.
- * <p>
+ *
  * See dependentcopy project for a poor design
  *
  * @author Jim Lombardo
@@ -25,7 +25,7 @@ public class Copier {
     /**
      * Get a Reader and Writer object (interface types). Copying ability is open
      * to any number of implementations that implement those interfaces.
-     * <p>
+     *
      * Both the Dependency Inversion Principle (DIP) and the Liskov Substitution
      * Principle are highlighted here.
      */

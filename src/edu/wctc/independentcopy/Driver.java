@@ -8,7 +8,7 @@ import edu.wctc.independentcopy.writer.Writer;
 /**
  * See dependentcopy project for a poor design
  *
- * @author Jim Lombardo, WCTC Lead Java Instructor
+ * @author Jim Lombardo
  * @version 1.02
  * @see Driver for run instructions and info about design rules
  */

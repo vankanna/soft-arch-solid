@@ -10,7 +10,7 @@ import java.io.PrintWriter;
  * A simple low-level, derived class that demonstrates the capability to write a
  * line of input to a file. Notice this class is derived from the interface
  * <code>Writer</code>, which is an abstraction of these details.
- * <p>
+ *
  * See dependentcopy project for a poor design
  *
  * @author Jim Lombardo

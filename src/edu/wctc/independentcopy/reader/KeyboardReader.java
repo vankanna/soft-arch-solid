@@ -7,10 +7,11 @@ import java.util.Scanner;
  * line of input from the keyboard. Notice this class is derived from the
  * interface <code>Reader</code>, which is an abstraction of these details.
  *
- * @author Jim Lombardo, WCTC Lead Java Instructor
+ * See dependentcopy project for a poor design
+ *
+ * @author Jim Lombardo
  * @version 1.02
- * @see Driver for run instructions and info about design rules
- * @see DependentCopy project for a poor design
+ * @see edu.wctc.independentcopy.Driver for run instructions and info about design rules
  */
 public class KeyboardReader implements Reader {
 

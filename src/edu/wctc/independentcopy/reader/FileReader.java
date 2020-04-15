@@ -8,10 +8,10 @@ import java.io.IOException;
  * A simple low-level, derived class that demonstrates the capability to read a
  * line of input from a file. Notice this class is derived from the interface
  * <code>Reader</code>, which is an abstraction of these details.
- * <p>
+ *
  * See dependentcopy project for a poor design
  *
- * @author Jim Lombardo, WCTC Lead Java Instructor
+ * @author Jim Lombardo
  * @version 1.02
  * @see edu.wctc.independentcopy.Driver for run instructions and info about design rules
  */

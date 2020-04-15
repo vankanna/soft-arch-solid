@@ -8,10 +8,9 @@ package edu.wctc.independentcopy.writer;
  * achieve the same results. Just make sure you keep the writeln() method
  * abstract as well.
  *
- * @author Jim Lombardo, WCTC Lead Java Instructor
+ * @author Jim Lombardo
  * @version 1.02
- * @see Copier.java, ScreenWriter.java and FileWriter.java for dependencies
- * @see Driver for run instructions and info about design rules
+ * @see edu.wctc.independentcopy.Driver for run instructions and info about design rules
  */
 public interface Writer {
 
