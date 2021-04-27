@@ -1,5 +1,6 @@
 package edu.wctc.independentcopy;
 
+import edu.wctc.independentcopy.reader.FileReader;
 import edu.wctc.independentcopy.reader.KeyboardReader;
 import edu.wctc.independentcopy.reader.Reader;
 import edu.wctc.independentcopy.writer.ConsoleWriter;
@@ -22,8 +23,8 @@ public class Driver {
          polymorphic!!!
          */
 
-        Reader reader = new KeyboardReader();
-        //Reader reader = new FileReader();
+        //Reader reader = new KeyboardReader();
+        Reader reader = new FileReader();
 
         Writer writer = new ConsoleWriter();
         //Writer writer = new GuiWriter();

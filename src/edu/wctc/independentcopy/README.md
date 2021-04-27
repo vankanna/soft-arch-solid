@@ -17,3 +17,7 @@ HOW TO USE: Run the main in Driver.java. Comment and uncomment various combinati
 When using FileReader, make sure you have a plain text file named "data.txt" in the default file location of your IDE of choice. This file should contain at least one line of text.
 
 If you are using FileWriter, the program will create "datacopy.txt" in the default directory.
+
+
+
+

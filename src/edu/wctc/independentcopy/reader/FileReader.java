@@ -28,7 +28,7 @@ public class FileReader implements edu.wctc.independentcopy.reader.Reader {
      */
     @Override
     public String readln() {
-        File data = new File("data.txt");
+        File data = new File("C:\\Users\\Sumin\\Desktop\\software architecture\\soft-arch-solid\\src\\edu\\wctc\\independentcopy\\data.txt");
 
         BufferedReader in = null;
         String line = null;
