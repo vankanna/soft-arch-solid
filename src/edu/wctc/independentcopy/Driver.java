@@ -2,8 +2,10 @@ package edu.wctc.independentcopy;
 
 import edu.wctc.independentcopy.reader.FileReader;
 import edu.wctc.independentcopy.reader.KeyboardReader;
+import edu.wctc.independentcopy.reader.ListReader;
 import edu.wctc.independentcopy.reader.Reader;
 import edu.wctc.independentcopy.writer.ConsoleWriter;
+import edu.wctc.independentcopy.writer.ListWriter;
 import edu.wctc.independentcopy.writer.Writer;
 
 /**
@@ -24,9 +26,9 @@ public class Driver {
          */
 
         //Reader reader = new KeyboardReader();
-        Reader reader = new FileReader();
+        Reader reader = new ListReader();
 
-        Writer writer = new ConsoleWriter();
+        Writer writer = new ListWriter();
         //Writer writer = new GuiWriter();
         //Writer writer = new FileWriter();
 
